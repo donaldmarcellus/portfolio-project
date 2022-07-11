@@ -177,11 +177,34 @@
           </div>
         </div>
       </section>
+      <!------------- -->
+      <!-- CTA SECTION -->
+      <!-- ------------ -->
       <section class="cta-section">
         <div class="cta-container">
           <p class="subheading">Contact me</p>
-          <h2 class="heading-secondary">Lets connect!</h2>
-          <div class="cta"></div>
+          <h2 class="heading-secondary">Lets connect</h2>
+          <form method="post" class="cta-form">
+            <h3 class="heading-tertiary tertiary-cta">Get in Touch</h3>
+            <p class="cta-description">Feel free to contact me anytime!</p>
+            <div class="input-field"">
+            <label for="full-name">Full Name:</label>
+          <input type="text" placeholder="John Smith" required name="full-name"></div>
+          <div class="input-field">
+            <label for="Email">Email Address:</label>
+            <input type="email" name="Email" placeholder="me@example.com" minlength="3" maxlength="250" >
+          </div>
+          <div class="input-field">
+            <label  for="message">Message:</label>
+            <textarea class="textarea" name="message" id="message"  placeholder="Type your text here..."></textarea>
+          </div>
+          <div class="btn-container"><button class="btn" type="submit">Send</button></div>
+          <ul class="contact-me-list">
+            <li class="contact-me-item"><a class="contact-me-link" href="https://www.linkedin.com/in/donald-marcellus-b3832922a/" target="_blank"><ion-icon class="contact-icon" name="logo-linkedin"></ion-icon></a></li>
+            <li class="contact-me-item"><a class="contact-me-link" href="https://twitter.com/donny956" target="_blank"><ion-icon class="contact-icon" name="logo-twitter"></ion-icon></a></li>
+            <li class="contact-me-item"><a class="contact-me-link" href="https://github.com/donaldmarcellus/donaldmarcellus" target="_blank"><ion-icon class="contact-icon" name="logo-github"></ion-icon></a></li>
+          </ul>
+          </form>
         </div>
       </section>
     </main>

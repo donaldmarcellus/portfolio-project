@@ -13,11 +13,6 @@
   background-color: black;
   padding: 3.6rem 0;
   height: 100vh;
-  /* position: relative; */
-  /* background-image: linear-gradient(
-    rgba(112, 112, 112, 0.35),
-    rgba(58, 58, 58, 0.35)
-  ); */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,7 +20,6 @@
 }
 
 .hero-textbox {
-  /* background-color: pink; */
   max-width: 30rem;
   display: flex;
   flex-direction: column;
@@ -113,7 +107,6 @@
 }
 
 .tools-icon:hover {
-  /* color: #ff3333; */
   transform: scale(1.2);
 }
 
@@ -164,14 +157,8 @@
   display: flex;
   flex-direction: column;
   padding: 2.4rem 1.2rem;
-  /* border: 3px solid #ff0000; */
   box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.1);
   border-radius: 1.2rem;
-  /* transition: all 0.5s; */
-}
-
-.figure-container:hover {
-  /* transform: scale(1.2); */
 }
 
 .figure-textbox {
@@ -215,4 +202,122 @@
 .cta-container {
   max-width: 100rem;
   height: 100vh;
+}
+
+.cta-form {
+  margin-top: 3.6rem;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 3.6rem 2.4rem;
+  border-radius: 1.2rem;
+  border: 3px solid #ff0000;
+  box-shadow: 0 1.6rem 3.2rem rgba(0, 0, 0, 0.2);
+}
+
+h3.tertiary-cta {
+  font-weight: 600;
+}
+
+.cta-description {
+  font-size: 1.6rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.input-field label,
+.input-field input {
+  display: block;
+  padding: 1.2rem;
+  width: 100%;
+  border-radius: 0.9rem;
+  border: none;
+  outline: none;
+  font-family: inherit;
+}
+
+.input-field label {
+  padding-bottom: 0.8rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.input-field input {
+  font-size: 1.6rem;
+  color: #333;
+  background-color: #eee;
+  transition: all 0.15s;
+}
+.textarea:focus,
+.input-field input:focus {
+  box-shadow: inset 0 0 3px #ff0000;
+}
+
+.textarea {
+  font-family: inherit;
+  font-size: 1.6rem;
+  background-color: #eee;
+  border-radius: 0.9rem;
+  border: none;
+  padding: 1.2rem;
+  outline: none;
+  resize: none;
+  transition: all 0.3s;
+  height: 100px;
+  width: 100%;
+}
+
+.textarea::placeholder {
+  color: #767676;
+  text-align: initial;
+}
+
+.btn {
+  margin-top: 2rem;
+  display: inline-block;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 1.2rem 2.4rem;
+  width: 100%;
+  height: 5rem;
+  border-radius: 0.9rem;
+  background-color: #000;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.btn-container {
+  justify-self: center;
+  align-self: center;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.btn:hover {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+.contact-me-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact-icon {
+  height: 3.2rem;
+  width: 3.2rem;
+  color: #ff0000;
+  transition: all 0.3s;
+}
+
+.contact-icon:hover,
+.contact-icon:active {
+  color: #ff3333;
+  transform: scale(1.2);
 }
