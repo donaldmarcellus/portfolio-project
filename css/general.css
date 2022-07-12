@@ -61,12 +61,10 @@ body {
 /* ******************************** */
 
 .heading-primary {
-  font-size: 3.5rem;
+  font-size: 4.2rem;
   font-weight: 700;
   color: #fff;
-  margin-bottom: 5rem;
   text-align: center;
-  /* transform: translateX(100%); */
 }
 
 .subheading {

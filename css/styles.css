@@ -9,7 +9,7 @@
 
 .hero-container {
   margin: 0 auto;
-  max-width: 100rem;
+  max-width: 100%;
   background-color: black;
   padding: 3.6rem 0;
   height: 100vh;
@@ -20,17 +20,25 @@
 }
 
 .hero-textbox {
-  max-width: 30rem;
   display: flex;
   flex-direction: column;
-  gap: 10rem;
+  gap: 2rem;
   transition: all 0.5s ease-in;
+  padding: 0 2.4rem;
+}
+
+.hero-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 3rem;
 }
 
 .hero-btn:link,
 .hero-btn:visited {
   display: inline-block;
-  width: 100%;
+  width: 300px;
   background-color: #ff0000;
   color: #fff;
   text-align: center;
@@ -41,6 +49,7 @@
   cursor: pointer;
   border-radius: 9px;
   transition: all 0.3s;
+  align-self: center;
   /* text-transform: uppercase; */
 }
 
@@ -60,6 +69,7 @@
   margin: 0 auto;
   max-width: 100rem;
   padding: 0 2.4rem;
+  height: 100vh;
 }
 
 .about-me-description {
@@ -120,7 +130,8 @@
   padding: 1.2rem 2.4rem;
   list-style: none;
   text-decoration: none;
-  width: 100%;
+  width: 300px;
+  align-self: center;
   text-align: center;
   border-radius: 9px;
   transition: all 0.3s;
@@ -202,11 +213,11 @@
 .cta-container {
   max-width: 100rem;
   height: 100vh;
+  margin: 0 auto;
 }
 
 .cta-form {
   margin-top: 3.6rem;
-
   display: grid;
   grid-template-columns: 1fr;
   padding: 3.6rem 2.4rem;
@@ -268,9 +279,10 @@ h3.tertiary-cta {
   width: 100%;
 }
 
+.input-field input::placeholder,
+.input-field label::placeholder,
 .textarea::placeholder {
   color: #767676;
-  text-align: initial;
 }
 
 .btn {
@@ -294,7 +306,7 @@ h3.tertiary-cta {
   justify-self: center;
   align-self: center;
   width: 100%;
-  margin-bottom: 2rem;
+  margin-bottom: 2.4rem;
 }
 
 .btn:hover {
@@ -320,4 +332,14 @@ h3.tertiary-cta {
 .contact-icon:active {
   color: #ff3333;
   transform: scale(1.2);
+}
+
+.svg-icon-tool {
+  height: 4.8rem;
+  width: 4.8rem;
+  transition: all 0.3s;
+}
+
+.svg-icon-tool:hover {
+  transform: scale(1.1);
 }
