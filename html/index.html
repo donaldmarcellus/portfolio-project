@@ -25,13 +25,28 @@
     <title>Donald Marcellus</title>
   </head>
   <body>
-    <header class="header"></header>
+    <!-- ---------- --->
+    <!-- NAV SECTION -->
+    <!-- ----------- -->
+    <header class="header">
+      <nav class="main-nav ">
+      <ul class="main-nav-list">
+        <li><a class="main-nav-link" href="#home">Home</a></li>
+        <li><a class="main-nav-link" href="#aboutme">About Me</a></li>
+        <li><a class="main-nav-link" href="#project">Projects</a></li>
+        <li><a class="main-nav-link" href="#contactme">Contact Me</a></li>
+      </ul>
+      </nav>
+      <button class="btn-mobile-nav" >
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon></button>
+    </header>
     <!-- ------------ -->
     <!-- HERO SECTION -->
     <!-- ------------ -->
     <main>
       <section class="hero-section">
-        <div class="hero-container">
+        <div class="hero-container" id="home">
           <div class="hero-textbox">
             <h1 class="heading-primary">Donald Marcellus</h1>
             <p class="hero-title">Jr. Front-End Web Developer</p>
@@ -184,12 +199,12 @@
       <!------------- -->
       <!-- CTA SECTION -->
       <!-- ------------ -->
-      <section class="cta-section">
+      <section class="cta-section" id="contactme">
         <div class="cta-container">
           <p class="subheading">Contact me</p>
           <h2 class="heading-secondary">Lets connect</h2>
           
-            <form method="post" class="cta-form">
+            <form action="https://formsubmit.co/dmarcellus0789@outlook.com" method="POST" class="cta-form" >
               <div class="form-textbox">
                 <h3 class="heading-tertiary tertiary-cta">Get in Touch</h3>
                 <p class="cta-description">Feel free to contact me anytime!</p>
@@ -206,11 +221,12 @@
               <textarea class="textarea" name="message" id="message"  placeholder="Type your text here..."></textarea>
             </div>
             <div class="btn-container"><button class="btn" type="submit">Send</button></div>
+      
             <ul class="contact-me-list">
               <li class="contact-me-item"><a class="contact-me-link" href="https://www.linkedin.com/in/donald-marcellus-b3832922a/" target="_blank"><ion-icon class="contact-icon" name="logo-linkedin"></ion-icon></a></li>
               <li class="contact-me-item"><a class="contact-me-link" href="https://twitter.com/donny956" target="_blank"><ion-icon class="contact-icon" name="logo-twitter"></ion-icon></a></li>
               <li class="contact-me-item"><a class="contact-me-link" href="https://github.com/donaldmarcellus" target="_blank"><ion-icon class="contact-icon" name="logo-github"></ion-icon></a></li>
-              <li class="contact-me-item"><a class="contact-me-link" href="https://github.com/donaldmarcellus" target="_blank"><ion-icon class="contact-icon" name="document-outline"></ion-icon></li>
+              <li class="contact-me-item"><a class="contact-me-link" href="/Docs/Donald Resume.pdf" target="_blank" download="Donald's Resume"><ion-icon class="contact-icon" name="document-outline"></ion-icon></a></li>
             </ul>
             </form>
           
