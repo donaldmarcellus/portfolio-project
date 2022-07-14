@@ -41,7 +41,7 @@
 /* NAV MOBILE BUTTON */
 .btn-mobile-nav {
   position: absolute;
-  top: 0;
+  bottom: 0;
   right: 0;
   border: none;
   outline: none;
@@ -118,14 +118,14 @@
 /* **ABOUT ME*** */
 .about-me-section {
   padding: 3.6rem 2.4rem 0;
-  margin-bottom: 4.8rem;
+  /* margin-bottom: 4.8rem; */
 }
 
 .about-me-container {
   margin: 0 auto;
   max-width: 100rem;
-  padding: 3.6rem 2.4rem;
-  height: 100vh;
+  padding: 3.6rem 2.4rem 0;
+  /* height: 80vh; */
 }
 
 .about-me-description {
@@ -201,14 +201,14 @@
 /* PROJECT SECTION */
 /* ********************* */
 .project-section {
-  padding: 3.6rem 2.4rem;
-  margin-bottom: 3.6rem;
+  padding: 3.6rem 2.4rem 0;
+  /* margin-bottom: 3.6rem; */
 }
 
 .project-container {
   margin: 0 auto;
   max-width: 100rem;
-  padding: 3.6rem 2.4rem;
+  padding: 3.6rem 2.4rem 0;
   grid-template-columns: 1fr;
   gap: 4rem;
 }
@@ -238,6 +238,7 @@
 .figure-description {
   margin-bottom: 4.4rem;
   line-height: 1.6;
+  font-size: 1.4rem;
 }
 
 .figure-tools {
@@ -263,13 +264,14 @@
 /* ****CTA-SECTION** 
 /* *******************/
 .cta-section {
-  padding: 0 2.4rem 2.4rem;
+  padding: 3.6rem 2.4rem 0;
 }
 
 .cta-container {
   max-width: 100rem;
-  /* height: 100vh; */
+  height: 100vh;
   margin: 0 auto;
+  padding: 3.6rem 2.4rem 0;
 }
 
 .cta-form {
